@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 import { Cards } from "./cards";
+import image1 from "../assets/card1.jpg";
 
 const Property = () => {
   return (
@@ -21,7 +22,7 @@ const Property = () => {
         </p>
       </div>
       <Cards
-        img=""
+        img={image1}
         judul="Rumah Pademangan"
         desc="lorem dkasjnkifjdiewqhjfiowaehjfoijhds"
       />

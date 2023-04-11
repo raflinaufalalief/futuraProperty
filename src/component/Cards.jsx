@@ -2,8 +2,8 @@ import React from "react";
 
 export const Cards = (props) => {
   return (
-    <>
-      <div>
+    <div className="pt-5">
+      <div className="box-card p-4">
         <img src={props.img} alt="" className="imageCard" />
         <div>
           <h1 className="headingCard">{props.judul}</h1>
@@ -11,6 +11,6 @@ export const Cards = (props) => {
           <button className="btnCard"></button>
         </div>
       </div>
-    </>
+    </div>
   );
 };

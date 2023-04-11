@@ -21,11 +21,13 @@ const Property = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      <Cards
-        img={image1}
-        judul="Rumah Pademangan"
-        desc="lorem dkasjnkifjdiewqhjfiowaehjfoijhds"
-      />
+      <div className="p-5">
+        <Cards
+          img={image1}
+          judul="Rumah Pademangan"
+          desc="lorem dkasjnkifjdiewqhjfiowaehjfoijhds"
+        />
+      </div>
     </section>
   );
 };

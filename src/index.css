@@ -7,3 +7,11 @@ html,
 body {
   fontfamily: "Poppins";
 }
+
+.imageCard {
+  width: 100px;
+}
+
+.box-card {
+  padding: 10px;
+}
